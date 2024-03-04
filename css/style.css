@@ -1,0 +1,94 @@
+body {
+	color: #2071a0;
+	background-color: #eff8ff;
+	font-family: "Roboto", sans-serif;
+	max-width: 580px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main {
+   display: flex;
+}
+
+main div {
+	width: 50%;
+	padding-right: 10px;
+}
+
+main div.surfImage {
+	text-align: right;
+}
+
+main div.sendImage {
+	margin-top: 162px;
+}
+
+#sendButton {
+	float: right;
+}
+
+h1 {
+	color: #0ea5e9;
+	margin: 40px 0 10px 0;
+}
+
+img {
+	border-radius: 10px;
+}
+
+a {
+	color: #2071a0;
+	font-size: small;
+	text-decoration: none;
+}
+
+button {
+	background-color: #ffffff;
+	color: #428eb8;
+	text-transform: uppercase;
+	padding: 5px 35px;
+	font-weight: 900;
+	margin: 5px 0;
+}
+
+button, input {
+	border-radius: 4px;
+	border-style: solid;
+	border-color: #dae1e7;
+
+}
+
+input[type="email"] {  
+	padding: 0 10px;
+	line-height: 28px;
+	width: 92%;
+}
+
+::placeholder {
+	color: #0ea5e9;
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		max-width: 280px;
+	}
+	
+	main {
+		display: block;
+	}
+	
+	main div {
+		width: 100%;
+	}
+	
+	main div.sendImage {
+		padding-top: 20px;
+		margin-top: 10px;
+	}
+	
+	button {
+		padding: 7px 35px;
+	}
+}
+
